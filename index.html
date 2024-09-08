@@ -1,0 +1,469 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="#">MyShop</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Shop</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <div class="search-container">
+                <input type="text" placeholder="Search...">
+                <button type="button"><img src="Images/logos-of-cloth/search icon.png" alt=""></button>
+            </div>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+
+
+    </header>
+
+    <div class="background-container">
+        <div class="overlay">
+            <h1 class="heading-back">Stylish Summer Collection</h1>
+            <p class="description">Discover the latest trends in fashion with our summer collection. Explore a wide range of clothes that offer style and comfort.</p>
+            <div class="buttons">
+                <a href="#" class="btn shop-now">Shop Now</a>
+                <a href="#" class="btn find-more">Find More</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Logos SLider start -->
+
+    <div class="slider-container">
+        <div class="slider">
+            <div class="slide">
+                <img src="Images/logos-of-cloth/client-logo-1.png" alt="Logo 1">
+            </div>
+            <div class="slide">
+                <img src="Images/logos-of-cloth/client-logo-2.png" alt="Logo 2">
+            </div>
+            <div class="slide">
+                <img src="Images/logos-of-cloth/client-logo-3.png" alt="Logo 3">
+            </div>
+            <div class="slide">
+                <img src="Images/logos-of-cloth/client-logo-1.png" alt="Logo 4">
+            </div>
+            <div class="slide">
+                <img src="Images/logos-of-cloth/client-logo-2.png" alt="Logo 5">
+            </div>
+            <div class="slide">
+                <img src="Images/logos-of-cloth/client-logo-3.png" alt="Logo 5">
+            </div>
+        </div>
+        <button class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
+
+    <!-- Logos slider close -->
+
+    <!-- Product Container creation -->
+
+    <div class="product">
+
+        <div class="promo-card">
+            <img src="Images/logos-of-cloth/client-logo-1-1.png" alt="Tank Tops" class="promo-image">
+            <div class="promo-text">
+                <h2>20% Off On Tank Tops</h2>
+                <p>Our clothes are made from premium materials that ensure comfort, durability, and style.</p>
+                <a href="#" class="shop-now-btn">Add to cart</a>
+            </div>
+        </div>
+
+        <div class="promo-card">
+            <img src="Images/logos-of-cloth/clothing-photography-with-model.jpg" alt="Tank Tops" class="promo-image">
+            <div class="promo-text">
+                <h2>20% Off On Tank Tops</h2>
+                <p>Our clothes are made from premium materials that ensure comfort, durability, and style.</p>
+                <a href="#" class="shop-now-btn">Add to cart</a>
+            </div>
+        </div>
+
+        <div class="promo-card">
+            <img src="Images/logos-of-cloth/cloth-3.jpeg" alt="Tank Tops" class="promo-image">
+            <div class="promo-text">
+                <h2>20% Off On Tank Tops</h2>
+                <p>Our clothes are made from premium materials that ensure comfort, durability, and style.</p>
+                <a href="#" class="shop-now-btn">Add to cart</a>
+            </div>
+        </div>
+
+    </div>
+
+
+    <!-- Fixed Img frame start -->
+
+        <div class="promo-container">
+            
+                <div class="promo-content">
+                    <p class="offer">Limited Time Offer</p>
+                    <h1 class="title">Special Edition</h1>
+                    <p class="description">Revamp your wardrobe with our exclusive collection, now available at unbeatable prices! For a limited time, enjoy 20% off on select clothing items, including stylish tops, trendy dresses, comfy t-shirts, and much more.</p>
+                    <p class="discount">Buy This T-shirt At 20% Discount, Use Code <strong>OFF20</strong></p>
+                    <a href="#" class="shop-btn">Shop Now</a>
+                </div>
+            
+        </div>
+
+        <h1 class="heading-product">Featured Products</h1>
+        <hr class="line">
+
+
+        <!-- Product -2  -->
+
+    <div class="product-2">
+
+        <div class="product-card">
+            <div class="badge">Sale!</div>
+            <img src="Images/logos-of-cloth/shorts.jpg" alt="Blue Denim Shorts" class="product-image">
+            <div class="product-details">
+                <h3 class="product-title">Blue Denim Shorts</h3>
+                <p class="product-category">Women</p>
+                <p class="product-price">
+                    <span class="old-price">$150.00</span>
+                    <span class="new-price">$130.00</span>
+                </p>
+                <div class="product-rating">
+                    ★★★★☆
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="badge">Sale!</div>
+            <img src="Images/logos-of-cloth/shoes.jpg" alt="Blue Denim Shorts" class="product-image">
+            <div class="product-details">
+                <h3 class="product-title">DNK blue shoes</h3>
+                <p class="product-category">Women</p>
+                <p class="product-price">
+                    <span class="old-price">$150.00</span>
+                    <span class="new-price">$130.00</span>
+                </p>
+                <div class="product-rating">
+                    ★★★★☆
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="badge">Sale!</div>
+            <img src="Images/logos-of-cloth/shoes-1.jpg" alt="Blue Denim Shorts" class="product-image">
+            <div class="product-details">
+                <h3 class="product-title">DNK yellow shoes</h3>
+                <p class="product-category">Women</p>
+                <p class="product-price">
+                    <span class="old-price">$150.00</span>
+                    <span class="new-price">$130.00</span>
+                </p>
+                <div class="product-rating">
+                    ★★★★☆
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="badge">Sale!</div>
+            <img src="Images/logos-of-cloth/jeans-2.jpg" alt="Blue Denim Shorts" class="product-image">
+            <div class="product-details">
+                <h3 class="product-title">Blue Denim jeans</h3>
+                <p class="product-category">Women</p>
+                <p class="product-price">
+                    <span class="old-price">$150.00</span>
+                    <span class="new-price">$130.00</span>
+                </p>
+                <div class="product-rating">
+                    ★★★★☆
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="badge">Sale!</div>
+            <img src="Images/logos-of-cloth/jeans.jpg" alt="Blue Denim Shorts" class="product-image">
+            <div class="product-details">
+                <h3 class="product-title">white denim jeans</h3>
+                <p class="product-category">Women</p>
+                <p class="product-price">
+                    <span class="old-price">$150.00</span>
+                    <span class="new-price">$130.00</span>
+                </p>
+                <div class="product-rating">
+                    ★★★★☆
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="badge">Sale!</div>
+            <img src="Images/logos-of-cloth/bracelet.jpg" alt="Blue Denim Shorts" class="product-image">
+            <div class="product-details">
+                <h3 class="product-title">Darke Bracelete</h3>
+                <p class="product-category">Women</p>
+                <p class="product-price">
+                    <span class="old-price">$150.00</span>
+                    <span class="new-price">$130.00</span>
+                </p>
+                <div class="product-rating">
+                    ★★★★☆
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="badge">Sale!</div>
+            <img src="Images/logos-of-cloth/bracelet-2.jpg" alt="Blue Denim Shorts" class="product-image">
+            <div class="product-details">
+                <h3 class="product-title">Corium Bracelete</h3>
+                <p class="product-category">Women</p>
+                <p class="product-price">
+                    <span class="old-price">$150.00</span>
+                    <span class="new-price">$130.00</span>
+                </p>
+                <div class="product-rating">
+                    ★★★★☆
+                </div>
+            </div>
+        </div>
+
+        <div class="product-card">
+            <div class="badge">Sale!</div>
+            <img src="Images/logos-of-cloth/jeans-3.jpg" alt="Blue Denim Shorts" class="product-image">
+            <div class="product-details">
+                <h3 class="product-title">Tuke Denim jeans</h3>
+                <p class="product-category">Women</p>
+                <p class="product-price">
+                    <span class="old-price">$150.00</span>
+                    <span class="new-price">$130.00</span>
+                </p>
+                <div class="product-rating">
+                    ★★★★☆
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Review Section start from here -->
+
+    <section class="reviews-section">
+        <h2>Customer Reviews</h2>
+        <div class="reviews-container">
+
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="Images/logos-of-cloth/Profile img as review.jpeg" alt="Customer 1" class="customer-img">
+                    <div>
+                        <h3>John Doe</h3>
+                        <span class="review-date">Reviewed on: July 15, 2024</span>
+                    </div>
+                </div>
+                <div class="review-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="review-text">
+                    I absolutely love this tank top! The fabric is soft, and the size fits perfectly. Will definitely order more in different colors.
+                </p>
+            </div>
+    
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="Images/logos-of-cloth/Profile img as review.jpeg" alt="Customer 2" class="customer-img">
+                    <div>
+                        <h3>Jane Smith</h3>
+                        <span class="review-date">Reviewed on: August 2, 2024</span>
+                    </div>
+                </div>
+                <div class="review-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="review-text">
+                    The product quality is good, but the color is slightly different from the picture. Still satisfied overall.
+                </p>
+            </div>
+    
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="Images/logos-of-cloth/Profile img as review.jpeg" alt="Customer 3" class="customer-img">
+                    <div>
+                        <h3>Emily Johnson</h3>
+                        <span class="review-date">Reviewed on: August 20, 2024</span>
+                    </div>
+                </div>
+                <div class="review-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="review-text">
+                    Excellent quality and fast shipping! Highly recommend this product.
+                </p>
+            </div>
+
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="Images/logos-of-cloth/Profile img as review.jpeg" alt="Customer 3" class="customer-img">
+                    <div>
+                        <h3>Emiway bantai</h3>
+                        <span class="review-date">Reviewed on: August 20, 2024</span>
+                    </div>
+                </div>
+                <div class="review-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                </div>
+                <p class="review-text">
+                    Excellent quality and fast shipping! Highly recommend this product.
+                </p>
+            </div>
+
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="Images/logos-of-cloth/Profile img as review.jpeg" alt="Customer 3" class="customer-img">
+                    <div>
+                        <h3>Rajpal kumar</h3>
+                        <span class="review-date">Reviewed on: August 20, 2024</span>
+                    </div>
+                </div>
+                <div class="review-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="far fa-star"></i>
+                </div>
+                <p class="review-text">
+                    Excellent quality and fast shipping! Highly recommend this product.
+                </p>
+            </div>
+
+            <div class="review-card">
+                <div class="review-header">
+                    <img src="Images/logos-of-cloth/Profile img as review.jpeg" alt="Customer 3" class="customer-img">
+                    <div>
+                        <h3>Johnson tykoon</h3>
+                        <span class="review-date">Reviewed on: August 20, 2024</span>
+                    </div>
+                </div>
+                <div class="review-rating">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star-half-alt"></i>
+                </div>
+                <p class="review-text">
+                    Excellent quality and fast shipping! Highly recommend this product.
+                </p>
+            </div>
+
+            
+        </div>
+    </section>
+
+
+    <!-- frame-3 -->
+
+    <div class="frame-3-container">
+        <div class="logo-container">
+            <img src="Images/logos-of-cloth/world-logo.png" alt="Brand Logo" class="logo">
+            <h1 class="heading">Welcome to Our Brand</h1>
+            <p class="description-1">Discover the finest collection of clothing and accessories crafted for your comfort and style. </p>
+        </div>
+        <div class="logo-container">
+            <img src="Images/logos-of-cloth/body-logo.png" alt="Brand Logo" class="logo">
+            <h1 class="heading">Welcome to Our Brand</h1>
+            <p class="description-1">Discover the finest collection of clothing and accessories crafted for your comfort and style. </p>
+        </div>
+        <div class="logo-container">
+            <img src="Images/logos-of-cloth/bes-offer-logo.png" alt="Brand Logo" class="logo">
+            <h1 class="heading">Welcome to Our Brand</h1>
+            <p class="description-1">Discover the finest collection of clothing and accessories crafted for your comfort and style.</p>
+        </div>
+    </div>
+
+
+    <!-- Footer section -->
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section about">
+                <h2>About Us</h2>
+                <p>We are a leading e-commerce platform offering the latest fashion trends at affordable prices. Our mission is to provide quality products and excellent customer service.</p>
+            </div>
+            <div class="footer-section links">
+                <h2>Useful Links</h2>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+            <div class="footer-section contact">
+                <h2>Contact Us</h2>
+                <ul>
+                    <li><i class="fas fa-map-marker-alt"></i> 1234 Street Name, City, Country</li>
+                    <li><i class="fas fa-phone-alt"></i> +1 234 567 890</li>
+                    <li><i class="fas fa-envelope"></i> support@ecommerce.com</li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h2>Follow Us</h2>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-section newsletter">
+                <h2>Newsletter</h2>
+                <p>Subscribe to our newsletter and get exclusive deals straight to your inbox.</p>
+                <form action="#" class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </div>
+    
+        <div class="footer-bottom">
+            <p>&copy; 2024 E-Commerce. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
